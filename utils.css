@@ -1,0 +1,23 @@
+.text-center{
+    text-align: center;
+   background-color: rgb(48, 28, 67);
+   padding: 13px ;
+   
+}
+.container{
+    
+    margin: auto;
+background-color: rgb(16, 16, 16);
+    max-width: 30%;
+    border: 3px solid rgb(66, 64, 64);
+    border-radius: 20px;
+}
+.flex {
+display: flex;
+}
+.flex-col{
+    flex-direction: column;
+}
+.items-center{
+    align-items: center;
+}

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
+.button{
+    padding: 1px 12px;
+    margin: 0 3px;
+    border: 3px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+font-size: 25px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+width: 60px;
+height: 50px;
+background-color:rgb(73, 72, 72) ;
+transition: 0.5s;
+position: relative;
+
+}
+html,body{
+    height: 100%;
+    width: 50;
+ 
+    padding: 13px;
+}
+.row{
+    margin:8px 0 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 82vw;
+    
+}
+.row input{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 18px;
+    border: 2px solid black;
+    border-radius: px;
+    background-color:rgb(176, 174, 174) ;
+}
+.button:hover{
+    transform: translate(-5px);
+    background-color: rgb(51, 49, 49);
+    
+}
