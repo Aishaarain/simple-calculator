@@ -19,7 +19,7 @@ button.addEventListener('click',(e)=>{
     document.querySelector('input').value=string;
    }
    else if(buttontext=="%"){
-    
+    console.log("dhsbd")
    }
     else{
 console.log(e.target)
